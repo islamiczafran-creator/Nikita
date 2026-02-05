@@ -29,8 +29,8 @@ logger = logging.getLogger(__name__)
 
 # Configuration
 class Config:
-    TELEGRAM_TOKEN = os.getenv("8305552115:AAGTX6d_3eeKqavX5wyOB3KMFdHec3eZ71k")
-    OPENAI_API_KEY = os.getenv("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")
+    TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+    OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
     
     # AI Model Settings
     MODEL = "gpt-3.5-turbo"  # Good balance of speed and quality
